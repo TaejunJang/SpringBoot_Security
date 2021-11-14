@@ -1,0 +1,7 @@
+server:  port: 8080  servlet:    context-path: /    encoding:      charset: UTF-8      enabled: true      force: true
+
+spring:
+  datasource:    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/test?characterEncoding=UTF-8&serverTimezone=UTC
+    username: jtj1019
+    password: qwer4321      thymeleaf:    mode: HTML    jpa:   hibernate:    ddl-auto: update    hibernate:      naming:        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl    show-sql: true  security:    oauth2:      client:        registration:          google:            client-id: 404561255749-1u054evrkbbm27tujqbrbhaevhl7kka4.apps.googleusercontent.com            client-secret: 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            scope:            - email            - profile

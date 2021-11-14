@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "spring.jpa.hibernate.hibernate.naming.physical-strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.hibernate.hibernate.naming.physical-strategy'"
+  },
+  {
+    "name": "spring.jpa.hibernate.show-sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.hibernate.show-sql'"
+  }
+]}
